@@ -1,5 +1,6 @@
 .idea
 *venv
+nmf_2024_fall/
 __pycache__
 .pytest*
 
