@@ -91,6 +91,7 @@ def solve_1d_pde(scheme: FiniteDifferencingScheme, lower_boundary_condition: Cal
                     spatial_grid[-1], t)
                 # Now workspsace slice points to a new slice u^{m+1}.
                 workspace_slice = result_slice
+                
 
         case FiniteDifferencingScheme.Implicit:
             # Initialize the propagator tridiagonal matrix.
